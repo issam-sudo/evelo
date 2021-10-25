@@ -1,0 +1,19 @@
+.centerElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 100%;
+        filter: grayscale(1);
+
+        width: auto;
+        height: 4vw;
+    }
+}
+
+.centerElementItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

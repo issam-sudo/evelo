@@ -1,0 +1,154 @@
+.detailsPadding {
+    padding-left: 3rem;
+}
+.detailsCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detailsBody {
+    background-color: white;
+}
+
+.small-ratings i {
+    color: hsl(12deg 92% 62%);
+}
+
+h6 {
+    color: hsl(0deg 0% 77%);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.detailsFirstImage {
+    position: relative;
+    bottom: 3vw;
+}
+
+.detailsSecondImage {
+    position: relative;
+    bottom: 3vw;
+    max-width: 100%;
+}
+
+.buttonReview {
+    display: flex;
+    justify-content: end;
+    color: #f76846;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+    .imageLeft {
+        width: 36vw !important;
+    }
+    .imageRight {
+        height: 45vw !important;
+    }
+    .buttonReview {
+        display: flex;
+        justify-content: end;
+        color: #f76846;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-size: 1vw;
+    }
+
+    .buttonTrial {
+        display: flex;
+        justify-content: start;
+        color: #f76846;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-size: 1vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .quoteImageSize {
+        display: none !important;
+    }
+
+    .centerElement {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paddingSm {
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .imageRight {
+        width: 94vw;
+        height: auto !important;
+    }
+
+    .imageLeft {
+        width: 94vw;
+        height: auto !important;
+    }
+
+    .buttonTrial {
+        display: flex;
+        justify-content: start;
+        color: #f76846;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-size: 3vw;
+    }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+    .imageLeft {
+        width: 36vw !important;
+    }
+    .imageRight {
+        height: 45vw !important;
+    }
+    .buttonReview {
+        display: flex;
+        justify-content: center;
+        color: #f76846;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-size: 2vw;
+    }
+
+    .buttonTrial {
+        display: flex;
+        justify-content: start;
+        color: #f76846;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-size: 2vw;
+    }
+}
+
+.quoteImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteDiv {
+    position: relative;
+
+    z-index: 1;
+    margin-top: -50%;
+    margin-bottom: -38%;
+    padding-left: 34%;
+
+    padding-top: -30%;
+}
+
+.quoteImageSize {
+    width: 36vw !important;
+}

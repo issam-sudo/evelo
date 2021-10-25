@@ -1,0 +1,59 @@
+<div class="row mx-0" style="height: 0px;">
+    <div class="col-lg-6 d-xl-flex d-md-none  boxWhite"> </div>
+</div>
+
+<div class="row   mx-0">
+    <div class="col-lg-6 col-md-12 px-0">
+        <p class="text-uppercase textFreatures pt-lg-5 pt-md-5 pt-sm-5 pt-xs-5">Bike <br> freatures</p>
+    </div>
+    <div class="col-lg-6 col-md-12">  </div>
+</div>
+
+<div class="row centerElement  px-5 mx-0">
+    <div class="col-4">  <p class="planningNumber">01</p>  </div>
+
+    <div class="col-8">
+        <div *ngIf="step3" (click)="restartTour()" class=" element secondInfo tour-middle-content"><i class="fa fa-plus-circle fa-2x"></i></div>
+       
+        <div (click)="restartTour()" class=" demo-title element firstInfo">  <i class="fa fa-plus-circle fa-2x"></i> </div>
+
+        <img class="imgBike"  src="https://www.activsport.eu/pol_pl_Rower-elektryczny-skladak-EcoBike-Even-Black-25641_1.png" alt="evelo bike">
+
+        <div *ngIf="step4" (click)="restartTour()" class=" tour-scroll thirdInfo element"><i class="fa fa-plus-circle fa-2x"></i></div>
+        
+        <div *ngIf="step1" (click)="restartTour()" class=" tour-scrollSecond fourInfo element"><i class="fa fa-plus-circle fa-2x"></i></div>
+    </div>
+
+</div>
+
+<div class="row centerElement p-5 mx-0 mb-5">
+    <div class="col-lg-4 col-md-12 ">
+
+        <div class="p-4 ">
+            <img src="https://img.icons8.com/ios/100/ffffff/truck.png" />
+            <h4 class="text-uppercase">Free Shipping</h4>
+        </div>
+        <p> Free FedEx Ground Shipping for all EVELO Electric Bicycles. </p>
+
+    </div>
+
+    <div class="col-lg-4 col-md-12 ">
+        <div class="p-4">
+            <img src="https://img.icons8.com/ios/100/ffffff/calendar--v1.png" />
+            <h4 class="text-uppercase">10 Day at-home trial</h4>
+        </div>
+        <p>If you don't love it, you can return it for free or exchange for a different bike. </p>
+    </div>
+
+    <div class="col-lg-4 col-md-12">
+        <div class="p-4">
+            <img src="https://img.icons8.com/wired/100/ffffff/knight-shield.png" />
+            <h4 class="text-uppercase">4-year/20k-mile warranty</h4>
+        </div>
+        <p> very EVELO comes with a 4-year/20,000-mile warranty.
+            That's double the industry average! </p>
+    </div>
+
+</div>
+
+<ngx-guided-tour></ngx-guided-tour>
